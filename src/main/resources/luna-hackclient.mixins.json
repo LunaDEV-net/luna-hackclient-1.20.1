@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "net.luna.lunahackclient.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"ExampleMixin",
+		"ModGameMenuScreenMixin",
+		"ClientConnectionInvokerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
